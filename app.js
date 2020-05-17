@@ -95,13 +95,15 @@ app.use((err, req, res, next) => {
   });
 });
 
+const port = 3000;
+
 db.connect((err) => {
   if (err) {
     console.log("Unable to connect to db");
     process.exit(1);
   } else {
-    app.listen(3000, () => {
-      console.log("connected, listning on port 3000");
+    app.listen(port, () => {
+      console.log(`connected listning on port ${port}`);
     });
   }
 });
