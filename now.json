@@ -11,6 +11,16 @@
       "src": "/getTodos",
       "dest": "/app.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/:id",
+      "dest": "/app.js",
+      "methods": ["PUT"]
+    },
+    {
+      "src": "/:id",
+      "dest": "/app.js",
+      "methods": ["DELETE"]
     }
   ]
 }
