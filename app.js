@@ -99,7 +99,7 @@ const port = process.env.PORT || 3000;
 
 db.connect((err) => {
   if (err) {
-    console.log("Unable to connect to db");
+    console.log(err);
     process.exit(1);
   } else {
     app.listen(port, () => {
