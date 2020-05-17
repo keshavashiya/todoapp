@@ -18,12 +18,12 @@
       "methods": ["GET"]
     },
     {
-      "src": "/",
+      "src": "/{id}",
       "dest": "/app.js",
       "methods": ["PUT"]
     },
     {
-      "src": "/",
+      "src": "/{id}",
       "dest": "/app.js",
       "methods": ["DELETE"]
     }
