@@ -23,7 +23,7 @@
       "methods": ["PUT"]
     },
     {
-      "src": "/(?<id>)",
+      "src": "/(?<id>[^/]*)",
       "dest": "/app.js?id=$id",
       "methods": ["DELETE"]
     }
