@@ -19,12 +19,12 @@
     },
     {
       "src": "/(?<id>)",
-      "dest": "/id",
+      "dest": "/app.js?id=$id",
       "methods": ["PUT"]
     },
     {
       "src": "/(?<id>)",
-      "dest": "/id",
+      "dest": "/app.js?id=$id",
       "methods": ["DELETE"]
     }
   ]
