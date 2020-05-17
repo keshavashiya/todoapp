@@ -6,6 +6,11 @@
       "src": "/",
       "dest": "/app.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/getTodos",
+      "dest": "/app.js",
+      "methods": ["GET"]
     }
   ]
 }
