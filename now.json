@@ -18,13 +18,13 @@
       "methods": ["GET"]
     },
     {
-      "src": "/{id}",
-      "dest": "/app.js",
+      "src": "/(?<id>)",
+      "dest": "/id",
       "methods": ["PUT"]
     },
     {
-      "src": "/{id}",
-      "dest": "/app.js",
+      "src": "/(?<id>)",
+      "dest": "/id",
       "methods": ["DELETE"]
     }
   ]
