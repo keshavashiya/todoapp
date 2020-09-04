@@ -1,3 +1,4 @@
 config.js
 .vercel
 .now
+node_modules/
