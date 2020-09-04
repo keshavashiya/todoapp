@@ -2,3 +2,4 @@ config.js
 .vercel
 .now
 node_modules/
+package-lock.json
